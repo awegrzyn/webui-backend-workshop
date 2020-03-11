@@ -1,6 +1,6 @@
 # Tests with Mocha
 
-### Tasks:
+### Tasks
 
 Test two endpoints defined in `index.js` file (`/` and `/api/hi`) using Mocha:
 1. Run `npm install`
@@ -10,7 +10,7 @@ Test two endpoints defined in `index.js` file (`/` and `/api/hi`) using Mocha:
 ### Runing tests
 
 1. Run `node index.js` in separate console
-2. Lauch mocha: `./node_modules/.bin/mocha index.js`
+2. Launch mocha: `./node_modules/.bin/mocha index.js`
 
 ### Documentation
 - https://mochajs.org/#getting-started
