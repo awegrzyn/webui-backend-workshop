@@ -1,5 +1,7 @@
 # MySQL/MariaDB
 
+### Preparation
+
 1. Create sample database
 ```sql
 CREATE DATABASE webui;
@@ -15,4 +17,9 @@ CREATE TABLE Users (
 );
 ```
 
-3. Use MySQL module to insert and select sample data, display ID of inserted rows, display name of selected users.
+### Tasks
+
+1. Use MySQL module to insert and select sample data, display ID of inserted rows, display name of selected users.
+
+### Documentation
+- https://github.com/AliceO2Group/WebUi/blob/dev/Framework/docs/guide/mysql.md

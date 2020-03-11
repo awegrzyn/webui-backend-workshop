@@ -1,10 +1,16 @@
 # Tests with Mocha
 
-Test two endpoint defined in `index.js` file (`/` and `/api/hi`) using Mocha:
-1. Run `npm install`
-1. Take a look Mocha getting started page: https://mochajs.org/#getting-started
-2. Verify that `/` endpoint returns `302` status code, and contain token
-3. Verify that `/api/hi` returns `200` status code and return JSON message: `hi`
-4. Run Mocha from command line `./node_modules/.bin/mocha  <TEST_FILE>` (server must be running)
+### Tasks:
 
-You can use additional Nodejs modules like: `http` and `assert`.
+Test two endpoints defined in `index.js` file (`/` and `/api/hi`) using Mocha:
+1. Run `npm install`
+2. Test that `/` endpoint returns `302` status code, and query contains JWT token
+3. Test that `/api/hi` returns `200` status code and returns JSON message: `hi`
+
+### Runing tests
+
+1. Run `node index.js` in separate console
+2. Lauch mocha: `./node_modules/.bin/mocha index.js`
+
+### Documentation
+- https://mochajs.org/#getting-started
