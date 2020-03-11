@@ -11,9 +11,9 @@
 - Concepts: WebSockets, HTTP
 
 ## Exercices
-1. REST API
-2. WebSockets
-3. Logging
-4. MySQL/MariaDB
-5. Linting with eslint
-6. Testing with mocha
+1. [REST API/HTTP](1-http)
+2. [WebSockets](2-ws)
+3. [Logging](3-logs)
+4. [MySQL/MariaDB](4-mysql)
+5. [Linting with eslint](5-lint)
+6. [Testing with mocha](6-test)
