@@ -11,7 +11,7 @@ CREATE DATABASE webui;
 ```sql
 USE webui;
 CREATE TABLE Users (
-    UserID int,
+    UserID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
     LastName varchar(255),
     FirstName varchar(255)
 );
