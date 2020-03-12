@@ -1,0 +1,14 @@
+{
+  "name": "backend-2-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Wegrzynek",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@aliceo2/web-ui": "^1.10.0"
+  }
+}
