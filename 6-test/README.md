@@ -10,7 +10,7 @@ Test two endpoints defined in `index.js` file (`/` and `/api/hi`) using Mocha:
 ### Runing tests
 
 1. Run `node index.js` in separate console
-2. Launch mocha: `./node_modules/.bin/mocha index.js`
+2. Launch mocha: `./node_modules/.bin/mocha test.js`
 
 ### Documentation
 - https://mochajs.org/#getting-started
