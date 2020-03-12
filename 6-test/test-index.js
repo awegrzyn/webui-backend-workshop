@@ -8,10 +8,7 @@ describe('HTTP', () => {
     http.get('http://localhost:8080/',
       (res) => {
         assert.strictEqual(res.statusCode, 302);
-        console.log(res.data);
         const parsedUrl = new url.URL(res.headers.location, 'http://localhost');
-        parsedUrl.searchParams.has('personid');
-        parsedUrl.searchParams.has('name');
         parsedUrl.searchParams.has('token');
         done();
       }
