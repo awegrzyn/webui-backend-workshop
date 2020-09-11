@@ -9,6 +9,6 @@
   "author": "Adam Wegrzynek",
   "license": "GPL-3.0",
   "dependencies": {
-    "@aliceo2/web-ui": "^1.10.0"
+    "@aliceo2/web-ui": "^1.12.0"
   }
 }
