@@ -2,11 +2,11 @@
 
 ### Task
 
-1. Use HTTP/REST module to serve data without any authentication:
+1. Use HTTP/REST module to serve data:
 - Static HTML page
 - GET route serving sample JSON
-2. Add JWT verification to GET route
-3. Verify that expired token cannot be used to access the route
+2. Set JWT token expiration to 30s
+3. Verify that expired JWT token cannot be used to access the GET route
 
 ### Documentation
 
