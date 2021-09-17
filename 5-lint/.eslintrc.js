@@ -1,6 +1,6 @@
 module.exports = {
   "root": true,
-  "extends": ["eslint:recommended", "google"],
+  "extends": ["eslint:recommended"],
   "env": {
     "es6": true,
     "node": true,
@@ -12,7 +12,7 @@ module.exports = {
     "Promise": true
   },
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 11,
     "sourceType": "module"
   },
   "rules": {
@@ -30,6 +30,9 @@ module.exports = {
             "ArrowFunctionExpression": true,
             "FunctionExpression": true
         }
-    }]
+    }],
+    "no-prototype-builtins": "off",
+    "no-cond-assign": "off",
+    "linebreak-style": "warn"
   }
 }
