@@ -1,8 +1,8 @@
 # WebUI Backend Workshop
 
 ## Software requiremets
-- NodeJS > `10.3.x`
-- MariaDB database
+- NodeJS > `14`
+- MariaDB database (optional)
 - Browser with WebSockets debugging tool (eg. Firefox or Chrome)
 
 ## Skill requirements
