@@ -9,7 +9,7 @@
   "author": "Adam Wegrzynek",
   "license": "GPL-3.0",
   "dependencies": {
-    "@aliceo2/web-ui": "1.13.0"
+    "@aliceo2/web-ui": "1.25.2"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
